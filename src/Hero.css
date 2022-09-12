@@ -1,0 +1,70 @@
+.save-all-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 350px;
+  padding: 5px 10px 5px 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+.save {
+  justify-self: flex-start;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  margin-right: 5px;
+  border-radius: 30px;
+  position: relative;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.con p {
+  font-size: 0.8rem;
+}
+.try {
+  padding: 5px 25px;
+  border-radius: 30px;
+  background-color: #3671e9;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  margin-top: 30px;
+}
+.try:hover {
+  background-color: #cc29ec;
+  cursor: pointer;
+}
+.arrow {
+  width: 35px;
+  height: 35px;
+}
+
+.illustration {
+  width: 90%;
+  height: auto;
+}
+
+@media (min-width: 850px) {
+  .flex-hero {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -50px;
+  }
+  .illustration {
+    width: 50%;
+  }
+  .save-all-con {
+    margin-top: 19px;
+    margin-bottom: 50px;
+  }
+}

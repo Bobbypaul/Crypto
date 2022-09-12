@@ -1,0 +1,93 @@
+.graph-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.graph-con h1 {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 40px;
+  max-width: 600px;
+}
+.graph-con h2 {
+  text-align: left;
+}
+.graph-con article {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+.graphs {
+  width: 100%;
+  height: auto;
+}
+
+.start-mint {
+  width: 100%;
+  max-width: 650px;
+  padding: 20px;
+  background-color: #3671e9;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+.start-mint h2 {
+  margin-bottom: 20px;
+}
+.start-mint .start-parag {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+.start-mint input {
+  background-color: #3671e9;
+  color: white;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 100%;
+  font-size: 1.4rem;
+}
+.start-mint ::placeholder {
+  color: white;
+}
+
+.subscribe {
+  width: 70px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+.subscribe:hover {
+  background-color: #bc2df5;
+  color: white;
+  cursor: pointer;
+}
+
+@media (min-width: 850px) {
+  .flex-graph {
+    display: flex;
+    gap: 70px;
+  }
+  .flex-graph img {
+    width: 50%;
+    margin-top: 50px;
+  }
+  .order {
+    order: 2;
+  }
+  .start-mint {
+    display: flex;
+
+    max-width: 800px;
+    gap: 75px;
+    align-items: center;
+  }
+  .start-mint input {
+    width: 70%;
+  }
+}
