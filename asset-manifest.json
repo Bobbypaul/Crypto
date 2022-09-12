@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Crypto/static/css/main.d4d6d8e1.css",
+    "main.js": "/Crypto/static/js/main.3d1fd427.js",
+    "static/media/Illustration.png": "/Crypto/static/media/Illustration.3a6cbfebbfa2968c3a3b.png",
+    "static/media/Table.png": "/Crypto/static/media/Table.9b92626f3d7ac05561ec.png",
+    "static/media/second-Ill.png": "/Crypto/static/media/second-Ill.79898f85945db53a91a7.png",
+    "static/media/Chart-big.png": "/Crypto/static/media/Chart-big.68b50b715930bdbdc248.png",
+    "static/media/Statistic.png": "/Crypto/static/media/Statistic.2448335b9915e9b97a9d.png",
+    "index.html": "/Crypto/index.html",
+    "main.d4d6d8e1.css.map": "/Crypto/static/css/main.d4d6d8e1.css.map",
+    "main.3d1fd427.js.map": "/Crypto/static/js/main.3d1fd427.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4d6d8e1.css",
+    "static/js/main.3d1fd427.js"
+  ]
+}
